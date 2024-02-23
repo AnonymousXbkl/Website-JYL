@@ -20,7 +20,17 @@ body {
     height: 13px;
     margin: 22rem 0 0 3rem;
     cursor: pointer;
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
 }
+
+.kotak1:hover {
+    background-color: lightblue;
+}
+
 .kotak2 {
     position: fixed;
     z-index: 888;
@@ -29,8 +39,17 @@ body {
     height: 13px;
     margin: 25rem 0 0 3rem;
     cursor: pointer;
-
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
 }
+
+.kotak2:hover {
+    background-color: lightblue;
+}
+
 .kotak3 {
     position: fixed;
     z-index: 888;
@@ -39,8 +58,17 @@ body {
     height: 13px;
     margin: 28rem 0 0 3rem;
     cursor: pointer;
-
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
 }
+
+.kotak3:hover {
+    background-color: lightblue;
+}
+
 .kotak4 {
     position: fixed;
     z-index: 888;
@@ -49,8 +77,17 @@ body {
     height: 13px;
     margin: 31rem 0 0 3rem;
     cursor: pointer;
-
+    transition: 0.4s;
+    -webkit-transition: 0.4s;
+    -moz-transition: 0.4s;
+    -ms-transition: 0.4s;
+    -o-transition: 0.4s;
 }
+
+.kotak4:hover {
+    background-color: lightblue;
+}
+
 
 
 /* NAVBAR */
