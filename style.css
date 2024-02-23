@@ -16,8 +16,8 @@ body {
     position: fixed;
     z-index: 888;
     background-color: black;
-    width: 13px;
-    height: 13px;
+    width: 11px;
+    height: 11px;
     margin: 22rem 0 0 3rem;
     cursor: pointer;
     transition: 0.4s;
@@ -35,8 +35,8 @@ body {
     position: fixed;
     z-index: 888;
     background-color: black;
-    width: 13px;
-    height: 13px;
+    width: 11px;
+    height: 11px;
     margin: 25rem 0 0 3rem;
     cursor: pointer;
     transition: 0.4s;
@@ -54,8 +54,8 @@ body {
     position: fixed;
     z-index: 888;
     background-color: black;
-    width: 13px;
-    height: 13px;
+    width: 11px;
+    height: 11px;
     margin: 28rem 0 0 3rem;
     cursor: pointer;
     transition: 0.4s;
@@ -73,8 +73,8 @@ body {
     position: fixed;
     z-index: 888;
     background-color: black;
-    width: 13px;
-    height: 13px;
+    width: 11px;
+    height: 11px;
     margin: 31rem 0 0 3rem;
     cursor: pointer;
     transition: 0.4s;
@@ -96,6 +96,19 @@ body {
     padding: 0 5rem 1.4%;
     background-color: rgba(0, 0, 0, 0);
     z-index: 9999;
+}
+
+.navbar button {
+    z-index: 9999;
+    background-color: black;color: #d8d9da;
+    position: relative;
+    top: 0.5rem;
+}
+
+.navbar .navbar-toggler {
+    z-index: 9999;
+    color: cadetblue;
+    background-color: #d8d9da;
 }
 
 .navbar img {
@@ -138,7 +151,7 @@ body {
 
 /* LANDING PAGE */
 .landing-page {
-    background-image: url(img-bg/IMG_1204.JPG);
+    background-image: url(img-bg/bgOHT.jpg);
     background-size: cover;
     width: 100%;
     height: 100vh;
@@ -217,7 +230,7 @@ body {
 .content1 .card-img-overlay {
     color:whitesmoke;
     text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
-    overflow: hidden;
+    overflow:visible
 }
 
 .content1 .card-img-overlay a {
@@ -226,13 +239,38 @@ body {
     font-weight: 700;
 }
 
+.content1 .card-img-overlay {
+    height: inherit;
+    width: inherit;
 
-
-
-
+}
 
 /* CONTENT 2 */
+.content2 {
+    background-image: url(./img-bg/IMG_1204.JPG);
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-attachment: fixed;
+    height: 100vh;
+}
 
+.content2 .text-content2 {
+    display: flex;
+    position: relative;
+    padding: 13rem 0 0 20rem;
+}
+
+.content2 .text-content2 h3 {
+    font-weight: 650;
+}
+
+.content2 .text-content2 a {
+    text-decoration: none;
+    margin: 0.5rem 0 0 2rem;
+    font-weight: 700;
+    color: #0098CC;
+}
 
 
 
@@ -253,7 +291,7 @@ body {
     }
   }
 
-  @media (max-width: 850px) {
+  @media (max-width: 991px) {
     html {
         font-size: 70%;
     }
@@ -261,6 +299,11 @@ body {
     .content1 .img-content1 {
         display: grid;
     }
+
+    .kotak1, .kotak2, .kotak3, .kotak4 {
+        display: none;
+    }
+
   }
 
   @media (max-width: 758px) {
@@ -309,10 +352,12 @@ body {
     }
 }
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
+@media only screen and (min-width: 988px) {
     html {
         font-size: 80%;
     }
+
+
 }
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1200px) {
