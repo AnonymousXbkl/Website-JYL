@@ -1,0 +1,96 @@
+<x:xmpmeta xmlns:x="adobe:ns:meta/" x:xmptk="Adobe XMP Core 5.6-c140 79.160451, 2017/05/06-01:08:21        ">
+ <rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#">
+  <rdf:Description rdf:about=""
+    xmlns:tiff="http://ns.adobe.com/tiff/1.0/"
+    xmlns:exif="http://ns.adobe.com/exif/1.0/"
+    xmlns:xmp="http://ns.adobe.com/xap/1.0/"
+    xmlns:aux="http://ns.adobe.com/exif/1.0/aux/"
+    xmlns:exifEX="http://cipa.jp/exif/1.0/"
+    xmlns:photoshop="http://ns.adobe.com/photoshop/1.0/"
+    xmlns:xmpMM="http://ns.adobe.com/xap/1.0/mm/"
+    xmlns:stEvt="http://ns.adobe.com/xap/1.0/sType/ResourceEvent#"
+    xmlns:dc="http://purl.org/dc/elements/1.1/"
+    xmlns:crd="http://ns.adobe.com/camera-raw-defaults/1.0/"
+    xmlns:crs="http://ns.adobe.com/camera-raw-settings/1.0/"
+   tiff:Make="SONY"
+   tiff:Model="ILCE-7M2"
+   tiff:Orientation="1"
+   exif:ExifVersion="0230"
+   exif:ExposureTime="1/1600"
+   exif:ShutterSpeedValue="10643856/1000000"
+   exif:FNumber="35/10"
+   exif:ApertureValue="361471/100000"
+   exif:ExposureProgram="1"
+   exif:SensitivityType="2"
+   exif:RecommendedExposureIndex="250"
+   exif:BrightnessValue="21494/2560"
+   exif:ExposureBiasValue="0/10"
+   exif:MaxApertureValue="434/256"
+   exif:MeteringMode="5"
+   exif:LightSource="0"
+   exif:FocalLength="500/10"
+   exif:FileSource="3"
+   exif:SceneType="1"
+   exif:FocalLengthIn35mmFilm="50"
+   exif:CustomRendered="0"
+   exif:ExposureMode="1"
+   exif:WhiteBalance="0"
+   exif:SceneCaptureType="0"
+   exif:Contrast="0"
+   exif:Saturation="0"
+   exif:Sharpness="0"
+   exif:DigitalZoomRatio="16/16"
+   exif:FocalPlaneXResolution="54894834/32768"
+   exif:FocalPlaneYResolution="54894834/32768"
+   exif:FocalPlaneResolutionUnit="3"
+   exif:DateTimeOriginal="2022-08-13T08:13:29"
+   xmp:CreatorTool="ILCE-7M2 v4.00"
+   xmp:ModifyDate="2022-08-13T08:13:29"
+   xmp:CreateDate="2022-08-13T08:13:29"
+   xmp:MetadataDate="2024-02-21T10:46:28+07:00"
+   aux:LensInfo="500/10 500/10 18/10 18/10"
+   aux:Lens="FE 50mm F1.8"
+   aux:LensDistortInfo="32796/32768 -3202966/1073741824 360045/1073741824 295575/1073741824"
+   exifEX:LensModel="FE 50mm F1.8"
+   photoshop:DateCreated="2022-08-13T08:13:29"
+   photoshop:SidecarForExtension="ARW"
+   photoshop:EmbeddedXMPDigest="00000000000000000000000000000000"
+   xmpMM:DocumentID="8D5EC77B534086CFA9E8DB6CD8521B89"
+   xmpMM:OriginalDocumentID="8D5EC77B534086CFA9E8DB6CD8521B89"
+   xmpMM:InstanceID="xmp.iid:3f2b380f-8023-ff4a-8c7f-a23831d31416"
+   dc:format="image/x-sony-arw"
+   crd:CameraProfile="Camera Portrait"
+   crd:LookName=""
+   crs:HasSettings="False"
+   crs:CropTop="0"
+   crs:CropLeft="0"
+   crs:CropBottom="1"
+   crs:CropRight="1"
+   crs:CropAngle="0"
+   crs:CropConstrainToWarp="0"
+   crs:HasCrop="True"
+   crs:AlreadyApplied="False">
+   <exif:ISOSpeedRatings>
+    <rdf:Seq>
+     <rdf:li>250</rdf:li>
+    </rdf:Seq>
+   </exif:ISOSpeedRatings>
+   <exif:Flash
+    exif:Fired="False"
+    exif:Return="0"
+    exif:Mode="2"
+    exif:Function="False"
+    exif:RedEyeMode="False"/>
+   <xmpMM:History>
+    <rdf:Seq>
+     <rdf:li
+      stEvt:action="saved"
+      stEvt:instanceID="xmp.iid:3f2b380f-8023-ff4a-8c7f-a23831d31416"
+      stEvt:when="2024-02-21T10:46:28+07:00"
+      stEvt:softwareAgent="Adobe Photoshop Camera Raw 12.3 (Windows)"
+      stEvt:changed="/metadata"/>
+    </rdf:Seq>
+   </xmpMM:History>
+  </rdf:Description>
+ </rdf:RDF>
+</x:xmpmeta>

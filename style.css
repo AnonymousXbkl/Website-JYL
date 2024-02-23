@@ -1,0 +1,285 @@
+html {
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+body {
+    background-color: #f8f9fa;
+    height: 4000px;
+    top: 0;
+    margin: 0;
+    padding: 0;
+}
+
+/* KOTAK NAVIGASI */
+.kotak1 {
+    position: fixed;
+    z-index: 888;
+    background-color: black;
+    width: 13px;
+    height: 13px;
+    margin: 22rem 0 0 3rem;
+    cursor: pointer;
+}
+.kotak2 {
+    position: fixed;
+    z-index: 888;
+    background-color: black;
+    width: 13px;
+    height: 13px;
+    margin: 25rem 0 0 3rem;
+    cursor: pointer;
+
+}
+.kotak3 {
+    position: fixed;
+    z-index: 888;
+    background-color: black;
+    width: 13px;
+    height: 13px;
+    margin: 28rem 0 0 3rem;
+    cursor: pointer;
+
+}
+.kotak4 {
+    position: fixed;
+    z-index: 888;
+    background-color: black;
+    width: 13px;
+    height: 13px;
+    margin: 31rem 0 0 3rem;
+    cursor: pointer;
+
+}
+
+
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    padding: 0 5rem 1.4%;
+    background-color: rgba(0, 0, 0, 0);
+    z-index: 9999;
+}
+
+.navbar img {
+    width: 13%;
+    display: flex;
+    position: relative;
+    top: 0.6rem;
+    filter: drop-shadow(1px 1px 1px white);
+    -webkit-filter: drop-shadow(1px 1px 1px white);
+}
+
+
+.navbar .navbar-nav .nav-link {
+    display: flex;
+    position: relative;
+    top: 0.5rem;
+    margin: 0 0.5rem;
+    color: white;
+    font-weight: 700;
+    text-shadow: 1px 1px 4px black;
+}
+
+/* 
+.navbar .navbar-nav .virtual-tour {
+    font-size: 0.9rem;
+} */
+
+.navbar .navbar-extra {
+    position: relative;
+    top: 0.8rem;}
+
+.navbar .navbar-extra a {
+    color: #d8d9da;
+    filter: drop-shadow(1px 1px 4px black);
+    -webkit-filter: drop-shadow(1px 1px 4px black);
+}
+
+
+
+
+/* LANDING PAGE */
+.landing-page {
+    background-image: url(img-bg/IMG_1204.JPG);
+    background-size: cover;
+    width: 100%;
+    height: 100vh;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.landing-page .textAwalPage {
+    position: relative;
+    top: 15rem;
+    left: 10rem;
+    width: 40%;
+}
+
+.landing-page .textAwalPage h3 {
+    font-size: 3rem;
+    font-weight: 700;
+    text-shadow: 1px 1px 1px black;
+    color: #93A0A5;
+}
+
+.landing-page .textAwalPage a {
+    text-decoration: none;
+    font-size: 1.5rem;
+    font-weight: 700;
+    color: lightblue;
+    top: 15rem;
+    text-shadow: 0px 0px 2px black;
+}
+
+/* CONTENT1 */
+.content1 {
+    background-image: url(./img-bg/img-bg-content1.jpg);
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+    height:1000px;
+    width: 100%;
+}
+
+.content1 .text-content1 {
+    position: relative;
+    top: 15rem;
+    left: 10rem;
+    width: 40%;
+}
+
+.content1 .text-content1 h3 {
+    font-weight: 800;
+    margin-bottom: 2rem;
+}
+
+.content1 .text-content1 p {
+    font-weight: 500;
+}
+
+.content1 .img-content1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.content1 .card-thumbnail {
+    width: 300px;
+    margin: 6rem;
+    border: 2px solid black;
+    border-radius: 5px;
+    -webkit-border-radius: 5px;
+    -moz-border-radius: 5px;
+    -ms-border-radius: 5px;
+    -o-border-radius: 5px;
+}
+
+.content1 .card-img-overlay {
+    color:whitesmoke;
+    text-shadow: 1px 1px 1px rgba(0, 0, 0, 0.5);
+    overflow: hidden;
+}
+
+.content1 .card-img-overlay a {
+    text-decoration: none;
+    color: #0098CC;
+    font-weight: 700;
+}
+
+
+
+
+
+
+/* CONTENT 2 */
+
+
+
+
+
+
+
+
+
+
+
+
+/*MediaQueries*/
+
+/*Laptop*/
+    @media(max-width: 1366px) {
+    html {
+      font-size: 75%;
+    }
+  }
+
+  @media (max-width: 850px) {
+    html {
+        font-size: 70%;
+    }
+
+    .content1 .img-content1 {
+        display: grid;
+    }
+  }
+
+  @media (max-width: 758px) {
+    html {
+      font-size: 62.5%;
+    }
+    .content1 .img-content1 {
+        display: grid;
+    }
+    .content1 .card-thumbnail {
+        width: 300px;
+        margin: 2rem;
+        border: 2px solid black;
+        border-radius: 5px;
+        -webkit-border-radius: 5px;
+        -moz-border-radius: 5px;
+        -ms-border-radius: 5px;
+        -o-border-radius: 5px;
+    }
+    
+  }
+
+/* Mobile Phone */
+@media (max-width: 450px) {
+    html {
+      font-size: 55%;
+    }
+  }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+    html {
+        font-size: 58%;
+    }
+}
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 60%;
+    }
+}
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+    html {
+        font-size: 70%;
+    }
+}
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+    html {
+        font-size: 80%;
+    }
+}
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+    html {
+        font-size: 100%;
+    }
+}
