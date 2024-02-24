@@ -27,20 +27,23 @@
       rel="stylesheet"
     />
 
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
     <title>JYL Indo Mining</title>
   </head>
   <body>
-<!-- ICON PAGE -->
-<a href="#home"><div class="kotak1" id="kotak1"></div></a>
-<a href="#content1"><div class="kotak2" id="kotak2"></div></a>
-<a href="#content2"><div class="kotak3" id="kotak3"></div></a>
-<div class="kotak4" id="kotak4"></div>
-<!-- ICON PAGE END -->
-
-
+    <!-- ICON PAGE -->
+    <div class="kotak">
+      <a href="#home"><div class="kotak1" id="kotak1"></div></a>
+      <a href="#content1"><div class="kotak2" id="kotak2"></div></a>
+      <a href="#content2"><div class="kotak3" id="kotak3"></div></a>
+      <div class="kotak4" id="kotak4"></div>
+    </div>
+    <!-- ICON PAGE END -->
 
     <!-- NAVBAR -->
-    <nav class="navbar navbar-expand-lg fixed-top">
+    <nav class="navbar navbar-expand-lg fixed-top" data-aos="fade-down" data-aos-duration="1500">
       <div class="container-fluid">
         <img src="logo/LOGO JYL SIDE NAME 360.png" alt="" />
         <button
@@ -68,13 +71,13 @@
               >
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">GALERI</a>
+              <a class="nav-link" href="./galeri/galeri.html">GALERI</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">KARIR</a>
+              <a class="nav-link" href="./karir/karir.html">KARIR</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="#">KONTAK</a>
+              <a class="nav-link" href="./kontak/kontak.html">KONTAK</a>
             </li>
             <div class="navbar-extra">
               <a href="#" id="search-button"><i data-feather="search"></i></a>
@@ -86,14 +89,17 @@
     <!-- NAVBAR END -->
 
     <!-- LANDING PAGE -->
-    <div class="section" id="home">
+    <div class="section" id="home" >
       <div class="landing-page">
-        <div class="textAwalPage">
+        <div class="textAwalPage" data-aos="fade-right" data-aos-duration="1500">
           <h3 class="text-landing-page">
             Pengelolaan Keselamatan dan Kesehatan Kerja Berkelanjutan Pastikan
             Karyawan Selamat dan Sejahtera
           </h3>
-          <a href="#">Selengkapnya</a>
+          <a href="#"
+            ><div class="readMore">
+              Selengkapnya <i data-feather="arrow-right"></i></div
+          ></a>
         </div>
       </div>
     </div>
@@ -102,7 +108,7 @@
     <!-- CONTENT 1 -->
     <div class="section" id="content1">
       <div class="content1">
-        <div class="text-content1">
+        <div class="text-content1" data-aos="fade-right" data-aos-duration="1500">
           <h3 class="h3-content1">Tujuan Kami</h3>
           <p>
             Kami terus berkarya untuk memberikan manfaat bagi bangsa,
@@ -110,7 +116,7 @@
             melalui pengabdian terbaik bagi Indonesia.
           </p>
         </div>
-        <div class="img-content1 ">
+        <div class="img-content1" data-aos="fade-up" data-aos-duration="1500">
           <div class="card-thumbnail">
             <div class="card text-white thumbnail-1">
               <img
@@ -135,7 +141,7 @@
                 alt="..."
               />
               <div class="card-img-overlay">
-                <h5 class="card-title">PIT </h5>
+                <h5 class="card-title">PIT</h5>
                 <p class="card-text">
                   This is a wider card with supporting text below as a natural
                   lead-in.
@@ -169,14 +175,72 @@
     <!-- CONTENT 2 -->
     <div class="section" id="content2">
       <div class="content2">
-        <div class="text-content2">
+        <div class="text-content2" data-aos="zoom-in-right" data-aos-duration="1500">
           <h3>Media JYL Indo Mining</h3>
-          <a href="">Selengkapnya</a>
+          <a href="#"
+            ><div class="readMore">
+              Selengkapnya <i data-feather="arrow-right"></i></div
+          ></a>
+        </div>
+        <div class="company-video" data-aos="fade-up" data-aos-duration="1500">
+          <div class="card text-white">
+            <img
+              src="./img-slideImage2/img-slideImage1.jpg"
+              class="card-img"
+              alt="..."
+            />
+            <a href=""
+              ><div class="card-img-overlay">
+                <img
+                  src="./icon/pngwing.com.png"
+                  alt=""
+                  style="width: 15%"
+                /></div
+            ></a>
+          </div>
+        </div>
+        <div class="text2-content2" data-aos="fade-down" data-aos-duration="1500">
+          <h5>Aktivitas Penambangan JYL Indo Mining</h5>
         </div>
       </div>
     </div>
-
     <!-- END CONTENT 2 -->
+
+    <!-- FOOTER -->
+    <footer>
+      <div class="footer-content">
+        <div class="text1">
+          <h5>Beranda</h5>
+          <h6>Tentang Kami</h6>
+          <h6>Keberlanjutan</h6>
+          <h6>Galeri</h6>
+        </div>
+        <div class="text2">
+          <h5>Tentang Kami</h5>
+          <h6>Sekilas Tentang Kami</h6>
+          <h6>Bagaimana Kami Berproses</h6>
+          <h6>Kontribusi Kami Pada Masyarakat</h6>
+          <h6>Berita</h6>
+        </div>
+        <div class="text3">
+          <h5>Bagaimana Kami Membantu Anda?</h5>
+          <h6>Kontak</h6>
+        </div>
+        <div class="text4">
+          <h5>Terhubung Dengan Kami</h5>
+          <a href=""><i data-feather="facebook"></i></a>
+          <a href=""><i data-feather="twitter"></i></a>
+          <a href=""><i data-feather="instagram"></i></a>
+          <a href=""><i data-feather="youtube"></i></a>
+          <a href=""><i data-feather="linkedin"></i></a>
+        </div>
+      </div>
+      <div class="copyright">
+        <p>PT JYL Indo Mining adheres to the International Council on Mining & Metals (ICMM) Sustainable Development Framework and the Global Reporting Initiative (GRI) Sustainability Reporting Guidelines.</p>
+        <p>Copyrights &copy 2024. PT JYL Indo Mining</p>
+      </div>
+    </footer>
+    <!-- FOOTER END -->
 
     <!-- Option 1: Bootstrap Bundle with Popper -->
     <script
@@ -192,5 +256,11 @@
 
     <!-- SCRIPT JAVASCRIPT -->
     <script src="main.js"></script>
+
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+      AOS.init();
+    </script>
   </body>
 </html>
