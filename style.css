@@ -373,7 +373,8 @@ body {
     }
 
     .navbar {
-        margin: 4rem 0 0 0;
+        margin: 0 0 0 0;
+        background-color: white;
     }
 
     .navbar .navbar-toggler {
@@ -413,20 +414,19 @@ body {
         display: grid;
         justify-content: center;
         align-items: center;
-        margin: 7rem 0 0 0;
+        margin: 4rem 0 0 0;
         padding: 0 4rem;
     }
 
     .content1 .text-content1 h3 {
-        font-size: 2.5rem;
+        font-size: 2rem;
         font-weight: 700;
         margin: 0 0 0 0;
     }
 
     .content1 .text-content1 p {
-        font-size: 1.35rem;
+        font-size: 1rem;
         font-weight: 500;
-        margin: -1rem 0 0 0;
     }
 
     .content1 .img-content1 {
