@@ -342,6 +342,23 @@ body {
     margin: 0 0 2rem 4rem;
 }
 
+.copyright .group .logoSAC {
+    width: 35%;
+}
+
+.copyright .group .logoJYL {
+    width: 25%;
+}
+
+
+
+
+
+
+
+
+
+
 
 /* Media Queries */
 /* Extra small devices (phones, 600px and down) */
@@ -473,7 +490,12 @@ body {
 
     .copyright {
         width: 90%;
-        margin: 0 0 0 0;
+        margin: auto;
+        text-align: center;
+    }
+
+    .copyright .copyright2 {
+        font-weight: bold;
     }
 }
 
