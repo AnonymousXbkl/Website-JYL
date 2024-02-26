@@ -1,3 +1,5 @@
+
+/*
 window.addEventListener ('scroll', function () {
     const navbar = document.querySelector ('.navbar')
         if (window.pageYOffset >= 150) {
@@ -6,3 +8,4 @@ window.addEventListener ('scroll', function () {
             navbar.classList.remove ('warna')
         }
 })
+**/
