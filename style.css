@@ -500,6 +500,7 @@ body {
     .content1 .text-content1 p {
         font-size: 1rem;
         font-weight: 500;
+        width: 100%;
     }
 
     .content1 .img-content1 {
