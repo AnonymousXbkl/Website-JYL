@@ -1,3 +1,13 @@
+/* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    outline: none;
+    border: none;
+    text-decoration: none;
+  }
+
 html {
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
@@ -56,7 +66,7 @@ body {
 .navbar {
     position: fixed;
     padding: 0 5rem 1.4%;
-    background-color: rgba(0, 0, 0, 0);
+    background-color:white;
     z-index: 9999;
 }
 
@@ -106,6 +116,29 @@ body {
     color: #d8d9da;
     filter: drop-shadow(1px 1px 4px black);
     -webkit-filter: drop-shadow(1px 1px 4px black);
+}
+
+.navbar .search-form {
+    background-color: white;
+    position: absolute;
+    top: 100%;
+    right: 3.7%;
+    width: 25rem;
+    height: 3rem;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    padding: 1rem;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.navbar .input-search {
+    height: 2.5rem;
+    width: 32rem;
 }
 
 
