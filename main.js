@@ -15,8 +15,6 @@ const navLink = document.querySelector ('.nav-link')
 
 
 const btnNavbar = document.querySelector ('.navbar-toggler');
-const navbarExtra = document.querySelector ('.navbar-ekstra');
-const navbarCollapse = document.querySelector ('.navbar-collapse')
     btnNavbar.addEventListener ('click', function(e) {
         searchButton.remove ();
         searchForm.classList.toggle ('active');
