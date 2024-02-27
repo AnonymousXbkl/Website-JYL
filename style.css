@@ -618,7 +618,7 @@ body {
     }
 
     .landing-page .textAwalPage h3 {
-        font-size: 2rem;
+        font-size: 1.5rem;
     }
 
     .landing-page .textAwalPage a {
@@ -639,17 +639,17 @@ body {
     }
 
     .content1 .card-thumbnail {
-        width: 25%;
+        width: 20%;
         position: relative;
-        left: 21rem;
-        bottom: 17rem;
+        left: 23rem;
+        bottom: 18rem;
         margin: 0 2rem;
     }
 
     .content1 .thumbnail3 {
         position: relative;
-        left: -7rem;
-        top: -4.5rem;
+        left: -2rem;
+        top: -10rem;
     }
 
     .content1 .card-img-overlay .card-text {
@@ -659,7 +659,6 @@ body {
     /* CONTENT 2 */
     .content2 .text-content2 {
         display: grid;
-        top: 3rem;
         right: 8rem;
     }
 
@@ -669,20 +668,21 @@ body {
 
     .company-video .card {
         position: relative;
-        top: -13rem;
+        top: -15rem;
         left: 12rem;
     }
 
     .content2 .text2-content2 {
         width: 28%;
-        position: relative;
-        bottom: 13rem;
-        left: 33.5rem;
     }
 
     .content2 h5 {
         font-size: 1.3rem;
         text-align: center;
+        position: relative;
+        bottom: 15rem;
+        left: 35rem;
+
     }
 
 }
