@@ -85,7 +85,12 @@ body {
     z-index: 9999;
     color: cadetblue;
     background-color: #d8d9da;
+    width: 4rem;
 }
+
+/* .navbar-collapse {
+    height: 16rem;
+} */
 
 .navbar img {
     width: 13%;
@@ -123,7 +128,7 @@ body {
     position: absolute;
     top: 100%;
     right: 3.7%;
-    width: 25rem;
+    width: 31rem;
     height: 3rem;
     position: absolute;
     display: flex;
