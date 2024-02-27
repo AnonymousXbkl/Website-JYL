@@ -425,7 +425,6 @@ body {
 .copyright .group .logoJYL {
     width: 15%;
     padding: 0 0 0 0.55rem;
-    margin: 0 2rem 0 0;
 }
 
 
@@ -465,8 +464,20 @@ body {
         width: 38%;
         position: relative;
         right: 2.5rem;
-        top: -0.02rem;
+        top: 0.2rem;
     }
+
+    .navbar .navbar-extra {
+        position: relative;
+        top: -14.7rem;
+        left: 14rem;
+    }
+
+    .navbar .navbar-extra a {
+        filter: none;
+        -webkit-filter: none;
+}
+
 
 
     .landing-page .textAwalPage {
@@ -509,6 +520,7 @@ body {
     }
 
     .content1 .img-content1 {
+        display: flex;
         flex-direction: column;
         flex-wrap: nowrap;
         justify-content: center;
@@ -591,7 +603,89 @@ body {
 
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {...}
+@media only screen and (min-width: 600px) {
+    html {
+        font-size: 80%;
+    }
+
+    .kotak {
+        display: none;
+    }
+
+    .landing-page .textAwalPage {
+        top: 4rem;
+        left: 5rem;
+    }
+
+    .landing-page .textAwalPage h3 {
+        font-size: 2rem;
+    }
+
+    .landing-page .textAwalPage a {
+        font-size: 1rem;
+    }
+
+    .content1 .text-content1 {
+        position: relative;
+        bottom: 3rem;
+        right: 6rem;
+    }
+
+    .content1 .img-content1 {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: row;
+        
+    }
+
+    .content1 .card-thumbnail {
+        width: 25%;
+        position: relative;
+        left: 21rem;
+        bottom: 17rem;
+        margin: 0 2rem;
+    }
+
+    .content1 .thumbnail3 {
+        position: relative;
+        left: -7rem;
+        top: -4.5rem;
+    }
+
+    .content1 .card-img-overlay .card-text {
+        display: none;
+    }
+
+    /* CONTENT 2 */
+    .content2 .text-content2 {
+        display: grid;
+        top: 3rem;
+        right: 8rem;
+    }
+
+    .content2 .text-content2 a {
+        margin: 1rem 0 0 0;
+    }
+
+    .company-video .card {
+        position: relative;
+        top: -13rem;
+        left: 12rem;
+    }
+
+    .content2 .text2-content2 {
+        width: 28%;
+        position: relative;
+        bottom: 13rem;
+        left: 33.5rem;
+    }
+
+    .content2 h5 {
+        font-size: 1.3rem;
+        text-align: center;
+    }
+
+}
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 768px) {...}

@@ -13,17 +13,22 @@ searchButton.addEventListener("click", function (e) {
   });
 });
 
-const btnNavbar = document.querySelector(".navbar-toggler");
-btnNavbar.addEventListener("click", function (e) {
-  searchButton.remove();
-  searchForm.classList.toggle("active");
-  e.stopPropagation();
-});
 
 
-  document.addEventListener("click", function (e) {
-    if (!searchForm.contains(e.target) && !navLink.contains(e.target)) {
-      btnNavbar.click();
-    }
 
-});
+
+
+
+// const btnNavbar = document.querySelector(".navbar-toggler");
+// btnNavbar.addEventListener("click", function (e) {
+//   searchButton.remove();
+//   searchForm.classList.add("active");
+//   e.stopPropagation();
+// });
+
+
+//   document.addEventListener("click", function (e) {
+//     if (!searchForm.contains(e.target) && !navLink.contains(e.target)) {
+//       btnNavbar.click();
+//     }
+// });
